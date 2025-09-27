@@ -279,6 +279,25 @@ ul {
     margin: 20px 0px;
 }
 
+.footer-policy{
+display: flex;
+align-items: center;
+gap: 15px;
+border-top: 1px solid white;
+padding: 15px 0px 32px;
+}
+
+.footer-policy a{
+color: white;
+font-weight: 100;
+}
+
+
+.rights{
+font-weight: 100;
+opacity: 0.5;
+}
+
 
 @media screen and (max-width: 992px) {
    .burger-btn{
@@ -315,6 +334,14 @@ ul {
     }
 }
 
+@media screen and (max-width: 550px){
+ .footer-body-links, .footer-policy, .footer-social-media, .rights{
+display: none;
+}
+.footer-body h3{
+font-size: 32px;
+}   
+}
 @media screen and (max-width: 450px) {
    header{
 padding: 30px;}
@@ -339,3 +366,4 @@ font-size: 16px;
 font-size: 20px;
 }
 }
+
