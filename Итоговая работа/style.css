@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    max-width: 1240px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 85px;
+}
+
+.logo {
+    width: 1240px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instface {
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    padding-bottom: 65px;
+}
+
+.hero {
+    margin: 0px auto;
+    max-width: 1080px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    max-width: 1080px;
+    font-weight: 600;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+button {
+    background: black;
+    color: white;
+   width: 185px;
+    height: 62px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.photo {
+    max-width: 1240px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 85px;
+}
+
+.hero1 {
+    margin: 0px auto;
+    max-width: 1080px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+.hero_button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+
+
+.hero_text {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 204px 0px 108px;
+    gap: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.customers {
+    text-align: center;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
+.text-subscribe {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.input-text {
+    margin: 0px auto;
+    max-width: 1240px;
+    display: flex;
+    gap: 125px;
+}
+
+.text-input {
+    margin: 0 auto;
+    padding-bottom: 140px;
+}
+
+.input-info {
+    margin: 0 auto;
+    width: 505px;
+    height: 203px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 10px;
+}
+
+.hero_button_input:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+button {
+    margin: 20px auto;
+}
+
+input {
+    background: black;
+    border: 1px solid white;
+    padding: 16px;
+
+}
+
+
+.customers_background {
+    margin: 0px auto;
+    padding-top: 70px;
+    background-image: url(image/image8.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+.customers_background_body{
+    max-width: 1025px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.hero_button_background{
+    background: none;
+    cursor: pointer;
+    color: black;
+    border-color: black;
+    transition: 0.5s;
+}
+
+.hero_button_background:hover{
+transform: scale(110%);
+color: white;
+border-color: white;
+}
+
+.logo_footer{
+    padding-top: 50px;
+    max-width: 1240px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1024px){
+.photo{
+display: flex;
+flex-direction: column;
+}
+
+.logo img{
+width: 70%;
+height: 70%;
+}
+img{
+width: 70%;
+height: 70%;
+margin: 0 auto;
+}
+h1{
+font-size: 50px;
+}
+h2{
+text-align: center;
+}
+
+.hero_text{
+display: flex;
+flex-direction: column;
+}
+.input-text{
+margin: 0 auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+padding-bottom: 70px;
+}
+p{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+width: 900px;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+h1{
+font-size: 30px;
+}
+h2{
+font-size: 20px;
+}
+.logo img{
+width: 60%;
+height: 60%;
+}
+img{
+width: 70%;
+height: 70%;
+}
+p{
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+display: flex;
+flex-direction: column;
+}
+.customers_background_body{
+margin: 0 auto;
+} 
+}
+
+@media screen and (max-width: 450px){
+    p{
+ margin: 0 auto;
+    text-align: center;
+    width: 400px;
+display: flex;
+flex-direction: column;
+}
+.customers_background_body{
+margin: 0 auto;
+}
+img{
+width: 80%;
+height: 80%;
+}
+.input-info{
+width: 400px;}
+}
